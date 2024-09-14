@@ -38,9 +38,21 @@ Should create a new hugo site. This site will not include a theme but it will ha
 
 Not that themes can be added a git submodules.
 
-Terminal helpful includes other instructions and a link to the hugo documentation.
+Terminal helpful includes other instructions and a link to the hugo documenteration.
 
-#### configuring the container to start hugo on startup
+#### (optional) test adding a new page
+
+```bash
+hugo server
+```
+
+```bash
+hugo new content/posts/my-first-post.md
+```
+
+#### (optional) configuring the container to start hugo on startup
+
+If you don't do this you will need to start the hugo server manually each time you start the container.
 
 After you successfully have created your site.
 
